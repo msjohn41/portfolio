@@ -177,3 +177,36 @@ footer{
     text-align: center;
     padding: 25px 0;
 }
+
+@media screen and (max-width: 665px){
+   .navbar{
+    display: block;
+   }
+
+   .navbar img{
+    display: block;
+    margin: auto;
+   }
+   
+   nav{
+    float: none;
+   }
+
+   nav ul{
+    text-align: center;
+   }
+
+   nav li{
+    margin-left: 0;
+    padding: 0 15px;
+   }
+
+   .logo{
+    float: none;
+   }
+   .projects-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+   }
+}
