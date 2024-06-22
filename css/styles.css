@@ -49,6 +49,7 @@ table {
 /* CSS START */
 
 body{
+    font-family: 'Oswald', Helvetica, sans-serif;
     background-color: white;
     width: auto;
     margin: auto;
@@ -92,7 +93,7 @@ nav li{
 }
 
 nav a{
-    font-size: 2em;
+    font-size: 2rem;
     text-decoration: none;
     color: white;
 }
@@ -106,7 +107,7 @@ main img {
 }
 
 .projects h2{
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     padding: 15px 0;
 }
@@ -131,7 +132,7 @@ main img {
 
 .projects-grid figcaption{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding: 15px 0;
 }
 
@@ -144,7 +145,7 @@ main img {
 }
 
 .about h2{
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
     padding: 15px 0;
 }
@@ -164,11 +165,11 @@ main img {
 .about-grid h3{
     padding: 15px 0;
     text-decoration: underline;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .contact h2{
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center;
 }
 
