@@ -112,13 +112,16 @@ main img {
 }
 .projects-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 20px;
+    padding-bottom: 15px;
 }
 
 .projects-grid figure{
     box-shadow: 10px 10px 20px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .projects-grid figure:hover{
@@ -129,6 +132,7 @@ main img {
 .projects-grid figcaption{
     text-align: center;
     font-size: 1.5em;
+    padding: 15px 0;
 }
 
 .about{
